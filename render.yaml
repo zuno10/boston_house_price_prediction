@@ -2,4 +2,5 @@ services:
 - type: web
   name: app
   env: python
-  rootDir: ./
+  Build Command : pip install -r requirements.txt
+  Start Command : gunicorn app:app
