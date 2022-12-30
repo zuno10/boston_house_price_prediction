@@ -1,5 +1,7 @@
 import json
 import pickle
+import sys
+!{sys.executable} -m pip install sklearn
 
 from flask import Flask,request,app,jsonify,url_for,render_template
 import numpy as np
